@@ -96,9 +96,11 @@ h2{
 
 .destacadas {
     width: 100%;
+    box-sizing: border-box;
 }
 .propiedad-destacada {
     /*background: midnightblue;*/
+    box-sizing: border-box;
     margin: auto;
     width: 70vw;
     height: 680px;
@@ -117,6 +119,7 @@ h2{
     margin: 35px 0;
     width: 300px;
     height: 250px;
+    box-sizing: border-box;
 }
 
 .prop-destacada {
@@ -139,14 +142,15 @@ h2{
 }
 
 .seccion-tipos-inmueble {
-    margin: auto;
-    width: 80%;
-    height: auto;
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin: auto;
+    width: 80%;
+    height: auto;
 
 }
 
@@ -186,5 +190,7 @@ footer {
 }
 
 footer p {
+    box-sizing: border-box;
     text-align: center;
+    width: 100vw;
 }
