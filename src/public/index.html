@@ -1,51 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>IDW</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <a href="https://www.airbnb.com.ar/"><img src="../img/logo.png" alt="IDW alojamiento" height="40"></a> 
-            <h2>IDW alojamiento</h2>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Alojamientos</a></li>
-            <li><a href="#">Reservas</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
+  <header>
+    <nav class="nav">
+      <a href="#" class="seccion-de-pagina">HOME</a>
+      <a href="#" class="seccion-de-pagina">INSTITUCIONAL</a>
+      <a href="contacto.html" class="seccion-de-pagina">CONTACTANOS</a>
+      <a href="#" class="seccion-de-pagina">REGISTRO</a>
     </nav>
-    <main>
-        <section class="hero">
-            <h1>Encuentra tu alojamiento en este sitio</h1>
-            <p>Esto es un párrafo para agregar información a nuestra portada de sitio de alojamiento</p>
-        </section>
+    <img src="#" class="logoEmpresa" alt="Logo empresa">
 
-        <section class="container featured-hotels">
-            <div class="hotel">
-                <img src="../img/hotel.png" alt="hotel">
-                <a href="https://www.hotelkilton.com.ar/"> Hotel 1</a>
-            </div>
-            <div class="hotel">
-                <img src="../img/hotel.png" alt="hotel">
-                <a href="https://www.hotelkilton.com.ar/"> Hotel 2</a>
-            </div>
-            <div class="hotel">
-                <img src="../img/hotel.png" alt="hotel">
-                <a href="https://www.hotelkilton.com.ar/"> Hotel 3</a>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <p>&copy; IDW 2024. Todos los derechos reservados.</p>
+  </header>
+
+  <div class="seccion-form-busqueda">
+    <form>
+      <input type="date" placeholder="Fecha de ingreso">
+      <input type="date" placeholder="Fecha de salida">
+      <input type="number" class="cantidad-personas">
+      <input type="submit" value="Buscar">
+    </form>
+    <img src="imagenes/casa-portada.png" alt="Foto de casa" class="casa-portada">
+  </div>
+
+  <main>
+    <section class="seccion-presentacion">
+      <h1>TITULO PRINCIPAL</h1>
+      <p class="presentacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aut commodi consectetur
+        culpa doloribus
+        ea enim eveniet ex facere facilis harum illum inventore iure laboriosam, magnam neque, odit officia officiis omnis optio quas quasi quia quisquam quo quos ratione similique tempora totam voluptas voluptatem voluptates.</p>
+    </section>
+    <section class="destacadas">
+    <h2>RECOMENDADAS DEL MES</h2>
+    <div class="propiedad-destacada">
+      <div class="prop">
+        <h3>propiedad 1</h3>
+        <a href="#"><img src="imagenes/casaIMG.jpg" alt="Propiedad destacada" class="prop-destacada"></a>
+        <p class="desc-destacada"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="prop">
+        <h3>propiedad 2</h3>
+        <a href="#"><img src="imagenes/casaIMG.jpg" alt="Propiedad destacada" class="prop-destacada"></a>
+        <p class="desc-destacada"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="prop">
+        <h3>propiedad 3</h3>
+        <a href="#"><img src="imagenes/casaIMG.jpg" alt="Propiedad destacada" class="prop-destacada"></a>
+        <p class="desc-destacada"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="prop">
+        <h3>propiedad 4</h3>
+        <a href="#"><img src="imagenes/casaIMG.jpg" alt="Propiedad destacada" class="prop-destacada"></a>
+        <p class="desc-destacada"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="prop">
+        <h3>propiedad 5</h3>
+        <a href="#"><img src="imagenes/casaIMG.jpg" alt="Propiedad destacada" class="prop-destacada"></a>
+        <p class="desc-destacada"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="prop">
+        <h3>propiedad 6</h3>
+        <a href="#"><img src="imagenes/casaIMG.jpg" alt="Propiedad destacada" class="prop-destacada"></a>
+        <p class="desc-destacada"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    </section>
+
+    <div class="paginas-inm-destacados"> <p class="scroll-prop">scroll paginas</p></div>
+
+    <section class="tipos-de-inmueble">
+      <h2>BUSCA POR TIPO DE INMUEBLE</h2>
+      <div class="seccion-tipos-inmueble">
+        <div class="tipo">
+          <h3 class="nombre-tipo"> Casas</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="84" height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+          </svg>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit illo laborum quam sed tempora.</p>
+          <a href="#"><div>Ver</div></a>
         </div>
-    </footer>
+        <div class="tipo">
+          <h3 class="nombre-tipo"> Quintas</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="84" height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 21l18 0" />
+            <path d="M4 21v-11l2.5 -4.5l5.5 -2.5l5.5 2.5l2.5 4.5v11" />
+            <path d="M12 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+            <path d="M9 21v-5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v5" />
+          </svg>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit illo laborum quam sed tempora.</p>
+          <a href="#"><div>Ver</div></a>
+        </div>
+        <div class="tipo">
+          <h3 class="nombre-tipo"> Departamentos</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="84" height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 21l18 0" />
+            <path d="M5 21v-14l8 -4v18" />
+            <path d="M19 21v-10l-6 -4" />
+            <path d="M9 9l0 .01" />
+            <path d="M9 12l0 .01" />
+            <path d="M9 15l0 .01" />
+            <path d="M9 18l0 .01" />
+          </svg>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit illo laborum quam sed tempora.</p>
+          <a href="#"><div>Ver</div></a>
+        </div>
+        <div class="tipo">
+          <h3 class="nombre-tipo"> Quinchos con pileta</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="84" height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
+            <path d="M2 16a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
+            <path d="M15 12v-7.5a1.5 1.5 0 0 1 3 0" />
+            <path d="M9 12v-7.5a1.5 1.5 0 0 0 -3 0" />
+            <path d="M15 5l-6 0" />
+            <path d="M9 10l6 0" />
+          </svg>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit illo laborum quam sed tempora.</p>
+          <a href="#"><div>Ver</div></a>
+        </div>
+        <div class="tipo">
+          <h3 class="nombre-tipo"> Apart-hotel</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="84" height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
+            <path d="M2 16a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
+            <path d="M15 12v-7.5a1.5 1.5 0 0 1 3 0" />
+            <path d="M9 12v-7.5a1.5 1.5 0 0 0 -3 0" />
+            <path d="M15 5l-6 0" />
+            <path d="M9 10l6 0" />
+          </svg>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit illo laborum quam sed tempora.</p>
+          <a href="#"><div>Ver</div></a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 IDW Check in. Todos los derechos reservados.</p>
+  </footer>
+
 </body>
 </html>

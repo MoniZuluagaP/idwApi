@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Candara, sans-serif;
+}
+body {
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background: #9a9998;
+    padding: 40px 0;
+    z-index: 1;
+}
+
+.nav {
+    background: none;
+    width: 100%;
+    padding: 15px;
+    align-content: center;
+}
+
+.seccion-de-pagina {
+    padding: 12px;
+    margin-left: 45px;
+    margin-right: 55px;
+    text-decoration: none;
+    color: gray;
+    background: #e3a63b;
+    border-radius: 5px;
+}
+
+.logoEmpresa {
+    float: right;
+    margin-right: 45px;
+    margin-top: -55px;
+}
+
+.seccion-form-busqueda {
+    width: 100%;
+    padding: 10px;
+}
+
+.cantidad-personas {
+    width: 30px;
+}
+
+form {
+    width: 30%;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 12px;
+    z-index: 3;
+    margin-top: -70px;
+    margin-left: 65px;
+    background: black;
+}
+form input {
+    width: 55%;
+    margin: 3px;
+}
+
+.casa-portada {
+    display: block;
+    width: 40%;
+    float: right;
+    margin-top: -200px;
+}
+.seccion-presentacion {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    margin-top: 150px ;
+}
+.presentacion {
+    margin: 45px 150px;
+    padding-right: 30%px;
+}
+
+h2{
+    width: 80%;
+    background: gray;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.nombre-tipo {
+    background: black;
+    padding: 5px;
+    margin: 20px;
+    color: white;
+}
+
+.destacadas {
+    width: 100%;
+}
+.propiedad-destacada {
+    /*background: midnightblue;*/
+    margin: auto;
+    width: 70vw;
+    height: 680px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-column-gap: 230px;
+    grid-row-gap: 40px;
+}
+
+
+.prop {
+    text-align: center;
+    color: white;
+    background: black;
+    margin: 35px 0;
+    width: 300px;
+    height: 250px;
+}
+
+.prop-destacada {
+    width: 100%;
+}
+
+.desc-destacada {
+    margin-left: 150px;
+    background: rgba(150,150,150,50%);
+    color: black;
+}
+
+.paginas-inm-destacados {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.tipos-de-inmueble {
+    margin-top: 65px;
+}
+
+.seccion-tipos-inmueble {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+
+.tipo {
+    height: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+}
+
+.icon {
+    margin: 50px auto 20px;
+}
+
+.tipo p {
+    margin: 10px;
+    padding: 20px 50px;
+}
+
+.tipo a div {
+    padding: 15px 45px;
+    background: #e3a63b;
+    width: auto;
+    float: right;
+    border-radius: 15px;
+    color: #8a8a8a;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background: dimgray;
+    margin-top: 100px;
+    padding: 50px;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+}
